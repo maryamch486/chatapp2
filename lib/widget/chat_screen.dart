@@ -1,8 +1,9 @@
-import 'package:chatapp/widgets/chat_list.dart';
-import 'package:chatapp/widgets/text_composer.dart';
+import 'package:chatapp/widget/text_composer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
+
+import 'chat_list.dart';
 enum MenuItem{
   signout
 }
@@ -15,7 +16,6 @@ class _ChatScreenState extends State<ChatScreen> {
   final List <Map<String ,dynamic>> _dummySnapshot=[];
   final _googleSignIn = GoogleSignIn();
   GoogleSignInAccount _currentUser;
-  @override
   void inState(){
     super.initState();
     _googleSignIn.onCurrentUserChanged.listen((GoogleSignInAccount account)

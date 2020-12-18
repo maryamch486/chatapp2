@@ -36,7 +36,7 @@ class _TextComposerState extends State<TextComposer> with
 
               children:   <Widget>[
                 IconButton(icon:
-                Icon(Icons.photo)
+                Icon(Icons.photo), onPressed: () {  },
                 ),
                 Flexible(
                   child:

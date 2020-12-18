@@ -21,6 +21,9 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  flutter_signin_button: ^1.1.0
+  firebase_auth: ^0.18.4+1
+  google_sign_in: ^4.5.6
   flutter:
     sdk: flutter
 
@@ -32,6 +35,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

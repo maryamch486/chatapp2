@@ -2,10 +2,12 @@ import 'package:chatapp/widget/chat_message.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 class   ChatList extends StatelessWidget{
   final List <Map<String, dynamic>> snapshot;
   const ChatList({Key key, this.snapshot}) : super(key:key);
   @override
+// ignore: non_constant_identifier_names
 Widget build (BuildContext Context){
     return Flexible(
         child: ListView.builder(
@@ -18,7 +20,6 @@ Widget build (BuildContext Context){
         ),
     );
 
-    return Container();
 
   }
 
