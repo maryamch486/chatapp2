@@ -1,3 +1,4 @@
+
 class Record{
 
   final String name;
@@ -10,7 +11,5 @@ class Record{
   avatarUrl =map['avatarUrl'],
   text =map['text'],
   photoUrl =map['photoUrl'];
-
-
 
 }

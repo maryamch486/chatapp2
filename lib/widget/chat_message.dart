@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chatapp/models/record.dart';
+import 'package:chatapp/model/record.dart';
 
 class ChatMessage extends StatelessWidget{
   final Map<String ,dynamic> snapshot;
